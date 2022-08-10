@@ -1,6 +1,7 @@
-Georginho pesa 70 kilos. Y consume sustancias.
+Nano es un voluntario que se ofreció para participar de un estudio en el que se plantea medir cómo afecta 
+el consumo de algunas sustancias al rendimiento de los deportistas.
+Nano pesa 70 kilos, y tiene la gran ventaja de que cada sustancia que consume reemplaza a la sustancia anterior. 
 
-Pero tiene la gran ventaja de que cada sustancia que consume reemplaza a la sustancia anterior. 
 Hoy modelaremos tres sustancias:
 
 Whisky: el whisky provoca sueño, mareo y jaquecas. 
@@ -15,11 +16,9 @@ Cianuro: el cianuro no favorece al rendimiento, sino que el deportista,
 luego de consumirlo queda como muerto, llenos de abulia y de marasmo. 
 Con cianuro, el rendimiento es siempre 0.
 
-Hacer que Georginho consuma cierta cantidad de una sustancia, 
-con el mensaje consumir(cantidad, sustancia)
-Conocer la velocidad de Georginho, mediante el mensaje velocidad().
+1. Hacer que Nano consuma cierta cantidad de una sustancia, con el mensaje `consumir(cantidad, sustancia)`
+2. Conocer la velocidad de Nano, mediante el mensaje `velocidad()`.
 
-La velocidad de Georginho (en m/s) se calcula 
-como el rendimiento de la sustancia por la inercia base de Georginho (490 kg*m/s) dividido su peso.
+_La velocidad de Nano (en m/s) se calcula como el rendimiento de la sustancia por la inercia base de Nano (490 kg*m/s) dividido su peso._
 
-¡No vale guardarse la velocidad!
+**¡No vale guardarse la velocidad!**
