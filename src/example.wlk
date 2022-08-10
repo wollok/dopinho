@@ -1,10 +1,10 @@
-object georginho {
+object tito {
 	
 	var peso = 70
 	const inerciaBase = 490
 	
 	var cantidad = 0
-	var sustancia = cianuro
+	var bebida = cianuro
 	
 //	var rendimiento = 0
 	
@@ -14,14 +14,14 @@ object georginho {
 		peso = peso - 10
 	}
 	
-	method consumir(cantidadNueva, sustanciaNueva){
-//		velocidad = sustanciaNueva.rendimiento(cantidadNueva) * inerciaBase / peso
-		cantidad = cantidadNueva
-		sustancia = sustanciaNueva
+	method consumir(cantidadNueva, bebidaNueva){
+//		velocidad = bebidaNueva.rendimiento(cantidadNueva) * inerciaBase / peso
+		cantidad = bebidaNueva
+		bebida = bebidaNueva
 	}
 	
 	method velocidad() {
-		return sustancia.rendimiento(cantidad) * inerciaBase / peso
+		return bebida.rendimiento(cantidad) * inerciaBase / peso
 //		return rendimiento * inerciaBase / peso
 //		return velocidad
 	}
