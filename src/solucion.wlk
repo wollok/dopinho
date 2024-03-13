@@ -6,24 +6,18 @@ object tito {
 	var cantidad = 0
 	var bebida = cianuro
 	
-//	var rendimiento = 0
-	
-//	var velocidad = 0
-	
+
 	method hacerDieta() {
 		peso = peso - 10
 	}
 	
 	method consumir(cantidadNueva, bebidaNueva){
-//		velocidad = bebidaNueva.rendimiento(cantidadNueva) * inerciaBase / peso
-		cantidad = bebidaNueva
+		cantidad = cantidadNueva
 		bebida = bebidaNueva
 	}
 	
 	method velocidad() {
 		return bebida.rendimiento(cantidad) * inerciaBase / peso
-//		return rendimiento * inerciaBase / peso
-//		return velocidad
 	}
 	
 }

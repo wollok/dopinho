@@ -1,0 +1,26 @@
+import solucion.*
+
+test "consumir whisky produce la velocidad deseada" {
+  tito.consumir(15,whisky)
+  assert.equals(1.44123,tito.velocidad())
+}
+
+test "tomar terere produce la velocidad deseada, cuando el rendimiento supera 1" {
+  tito.consumir(20,terere)
+  assert.equals(14,tito.velocidad())
+}
+
+test "consumir terere produce la velocidad deseada, cuando el rendimiento es 1 " {
+  tito.consumir(9,terere)
+  assert.equals(7,tito.velocidad())
+}
+
+test "consumir cianuro produce la velocidad deseada" {
+  tito.consumir(15,cianuro)
+  assert.equals(0,tito.velocidad())
+}
+
+test "tito NO tiene un atributo velocidad" {
+	//TODO: Falta expectativa
+	assert.notThat(tito.toString().contains("velocidad"))
+}
