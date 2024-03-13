@@ -1,4 +1,5 @@
-**Tito** es un voluntario que se ofreció para participar de un estudio en el que se plantea medir cómo afecta el consumo de algunas sustancias al rendimiento de los deportistas.
+Tito es un voluntario que se ofreció para participar de un estudio en el que se plantea medir cómo afecta 
+el consumo de algunas sustancias al rendimiento de los deportistas.
 
 Tito pesa actualmente 70 kilos. Tiene la gran ventaja de que cada bebida que toma _reemplaza_ a la anterior. Hoy modelaremos tres bebidas:
 
